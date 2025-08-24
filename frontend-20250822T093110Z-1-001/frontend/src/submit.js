@@ -15,10 +15,11 @@ export const SubmitButton = () => {
     const handleSubmit = async () => {
         try {
 
-            const response = await fetch('/api/pipelines/parse', {
+            const response = await fetch('http://localhost:8000/pipelines/parse', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
+                    'Access-Control-Allow-Origin': '*'
                 },
                 body: JSON.stringify({ nodes, edges }),
             });
