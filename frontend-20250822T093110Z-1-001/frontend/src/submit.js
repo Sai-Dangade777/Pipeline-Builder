@@ -40,14 +40,16 @@ export const SubmitButton = () => {
     };
 
         const buttonStyle = {
-        padding: '10px 20px',
+        padding: '12px 24px',
         fontSize: '16px',
+        fontWeight: '500',
         borderRadius: '8px',
         color: 'white',
+        backgroundColor: 'var(--primary-color)',
         border: 'none',
         cursor: 'pointer',
         boxShadow: '0 2px 4px rgba(0,0,0,0.1)',
-        transition: 'all 0.2s',
+        transition: 'all 0.2s ease',
         margin: '0 10px'
     };
 
