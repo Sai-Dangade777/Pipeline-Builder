@@ -103,10 +103,6 @@ The frontend will run on http://localhost:3000
    - View node count, edge count, and DAG validation
    - Clear pipeline to start new
 
-## Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
 ## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
